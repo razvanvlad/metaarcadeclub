@@ -10,18 +10,18 @@ import coinIcon4 from "assets/images/project/icon-4.png";
 const data = [
   {
     projectIcon: projectIcon1,
-    title: "The Wasted Lands",
+    title: "Leaderboard Showcase",
     price: "0.13 BUSD",
     totalRise: "38,999.70 BUSD ( 43% )",
     allocation: "500 BUSD Max",
     targetedRise: "100,000 BUSD",
-    saleEnd: 1432560,
+    saleEnd: 2422560,
     coinIcon: coinIcon1,
-    progress: "43%",
+    progress: "42%",
   },
   {
     projectIcon: projectIcon2,
-    title: "Gaia Everworld",
+    title: "Upcoming Tournaments",
     price: "0.45 BUSD",
     totalRise: "20,999.70 BUSD ( 43% )",
     allocation: "500 BUSD Max",
@@ -32,7 +32,7 @@ const data = [
   },
   {
     projectIcon: projectIcon3,
-    title: "Super Sidero",
+    title: "Upcoming Events",
     price: "5.03 BUSD",
     totalRise: "42,999.70 BUSD ( 43% )",
     allocation: "500 BUSD Max",
@@ -43,7 +43,7 @@ const data = [
   },
   {
     projectIcon: projectIcon4,
-    title: "Thetan Arena",
+    title: "Ads",
     price: "1.30 BUSD",
     totalRise: "22,987.70 BUSD ( 43% )",
     allocation: "500 BUSD Max",
