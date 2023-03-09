@@ -1,71 +1,36 @@
 import TeamDetailsStyleWrapper from "./TeamDetails.style";
-import thumb from "assets/images/team/teamBig.png";
-import fbIcon from "assets/images/icons/facebook.svg";
-import linkedIcon from "assets/images/icons/linkedin.svg";
-import twitterIcon from "assets/images/icons/twitter.svg";
+import Team from "sections/Team/v1";
 
 const TeamDetails = () => {
   return (
     <TeamDetailsStyleWrapper>
       <div className="container">
         <div className="row">
-          <div className="col-md-5">
-            <div className="left_content_thumb">
-              <img src={thumb} alt="team thumb" className="img-fuild" />
-            </div>
-          </div>
-          <div className="col-md-7">
+          <div className="col-md-12">
             <div className="right_content">
-              <h3 className="member_title">
-                Robert Smith
-                <span>Web Developer</span>
-              </h3>
-
               <p>
-                Hello, I’m working as a web developer from last 10+ years.
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text.
+              Welcome to the Meta Arcade team, where we bring the fun and excitement of NFT gaming to the next level! We're a group of passionate individuals who come from different backgrounds, but share a common goal - to make the Meta Arcade the best NFT gaming experience out there.
               </p>
               <p>
-                It has roots in a piece of classical Latin literature from 45
-                BC, making it over 2000 years old. Richard McClintock, a Latin
-                professor at Hampden-Sydney College in Virginia, looked up one
-                of the more obscure Latin words, consectetur cites of the word
-                in classical literature. The standard chunk of Lorem Ipsum used
-                since the 1500s is reproduced below for those interested.
+              Who are the masterminds behind the Meta Arcade, you ask? 
+              Well, first we have our head honcho, the big cheese, the top dog - the boss who keeps us all in line and on track. 
+              Then we have our fearless leader, the creative genius who dreams up new game ideas and keeps us all inspired. 
+              And of course, we can't forget our tech wizard who keeps the platform running like a well-oiled machine.
               </p>
               <p>
-                Sections 1.10.32 and 1.10.33 from De Finibus Bonorum et Malorum"
-                by Cicero are also reproduced in their exact original
+              But wait, there's more! We also have our resident comedian who keeps us laughing and our spirits high. 
+              And let's not forget our social butterfly who's always buzzing around, engaging with the community and spreading the word about the Meta Arcade. 
+              Last but not least, we have our numbers whiz who's always crunching the data and making sure we're on the right path.
               </p>
 
-              <ul className="member_details">
-                <li>
-                  <strong>Experience:</strong> <span>10+ Years</span>
-                </li>
-                <li>
-                  <strong>Email:</strong> <span>mailme@domain.com</span>
-                </li>
-                <li>
-                  <strong>Phone:</strong> <span>+56 00 9834 558</span>
-                </li>
-                <li className="social_items">
-                  <strong>Social:</strong>
-                  <a href="#">
-                    {" "}
-                    <img src={fbIcon} alt="icon" />{" "}
-                  </a>
-                  <a href="#">
-                    {" "}
-                    <img src={linkedIcon} alt="icon" />{" "}
-                  </a>
-                  <a href="#">
-                    {" "}
-                    <img src={twitterIcon} alt="icon" />{" "}
-                  </a>
-                </li>
-              </ul>
+              <p>
+              Together, we're the dream team that makes the Meta Arcade tick. 
+              Connect with us on our social media channels and get to know the faces behind the games. 
+              We're always up for a chat, and we'd love to hear your feedback on how we can make the Meta Arcade even better. 
+              So come on over and join the fun - we'll be waiting for you!
+              </p>
             </div>
+            <Team />
           </div>
         </div>
       </div>
