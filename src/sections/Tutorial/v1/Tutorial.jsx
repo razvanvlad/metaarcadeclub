@@ -9,13 +9,9 @@ const Tutorial = () => {
     <TutorialStyleWrapper>
       <div className="container">
         <SectionTitleWrapper>
-          <SectionTitle title="HOW TO PARTICIPATE" subtitle="3 EASY STEPS" />
+          <SectionTitle title="Arcade Playground" />
 
-          <Button href="/kyc-1" sm variant="outline">
-            {" "}
-            Verify KYC{" "}
-            <FiChevronRight />
-          </Button>
+
         </SectionTitleWrapper>
 
         <div className="row">

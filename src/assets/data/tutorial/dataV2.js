@@ -5,7 +5,7 @@ import numberImg3 from "assets/images/icons/three.svg"
 const data = [
     {
         icon: numberImg1,
-        title: "Submit KYC",
+        title: "",
         text: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece"
     },
     {

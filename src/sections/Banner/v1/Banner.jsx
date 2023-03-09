@@ -15,15 +15,15 @@ const Banner = () => {
               alt="banner icon"
             />
             <h1 className="banner-title">
-              Metaverse Web 3.0 Gaming Launcepad &amp; IGO
+            Welcome to the Playground
             </h1>
-            <div className="description">
+            {/* <div className="description">
               The next generation gaming ecosystem for IGOs and NFT
-            </div>
+            </div> */}
 
-            <Button href="/projects-grid" variant="mint" md isCenter className="banner-btn">
+            {/* <Button href="/projects-grid" variant="mint" md isCenter className="banner-btn">
               Explore IGO
-            </Button>
+            </Button> */}
           </div>
         </div>
       </BannerStyleWrapper>

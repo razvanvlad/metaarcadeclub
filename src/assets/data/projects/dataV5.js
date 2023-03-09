@@ -50,7 +50,7 @@ const data = [
       },
       {
         icon: discord,
-        url: "#",
+        url: "https://discord.gg/gNU6xj6tPf",
       },
       {
         icon: insta,
@@ -70,7 +70,7 @@ const data = [
       },
       {
         icon: twitter,
-        url: "#",
+        url: "https://twitter.com/metaarcadeclub",
       },
     ],
   },

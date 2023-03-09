@@ -1,5 +1,5 @@
 import Social from "../../SocialProfile/SocialProfile";
-import footerLogo from "assets/images/logo.png";
+import footerLogo from "assets/images/logo-svg/LOGO-meta-arcade-club-01.svg";
 import { VscChevronUp } from "react-icons/vsc";
 import FooterBottomStyleWrapper from "./FooterBottom.style";
 
@@ -16,15 +16,6 @@ const FooterBottom = () => {
 
           <ul className="footer-menu">
             <li>
-              <a href="# ">Features</a>
-            </li>
-            <li>
-              <a href="# ">How it works</a>
-            </li>
-            <li>
-              <a href="# ">Token info</a>
-            </li>
-            <li>
               <a href="# ">About us</a>
             </li>
             <li>
@@ -39,8 +30,8 @@ const FooterBottom = () => {
           </ul>
 
           <div className="copyright-text">
-            Copyright © 2022. All Rights Reserved by
-            <a href="# " target="_blank">GaFi</a>
+            Copyright © 2023. All Rights Reserved by 
+            <a href="# " target="_blank"> Meta Arcade Club</a>
           </div>
           <div className="scrollup text-center">
             <a href="# ">
