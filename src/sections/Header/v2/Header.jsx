@@ -6,7 +6,7 @@ import Button from "components/button";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 import data from "assets/data/menu/menuData";
-import logo from "assets/images/logo.png";
+import logo from "assets/images/logo-svg/LOGO-meta-arcade-club-02.svg";
 import connectIcon from "assets/images/icons/connect.png"
 import walletIcon1 from "assets/images/icons/pancake.png"
 import walletIcon2 from "assets/images/icons/uniswap.png"
