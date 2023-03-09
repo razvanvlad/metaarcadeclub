@@ -18,7 +18,7 @@ export default function RoadMapDetailsPage() {
         {walletModalvisibility && <WalletModal />}
         {metamaskModal && <MetamaskModal />}
         <Header />
-        <PageHeader currentPage="Roadmap details" pageTitle="Roadmap details" />
+        <PageHeader currentPage="Roadmap" pageTitle="Roadmap" />
         <RoadMapDetails />
         <Footer />
       </Layout>

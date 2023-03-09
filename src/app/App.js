@@ -20,7 +20,7 @@ import Farming from "pages/farming";
 import Leaderboard from "pages/leaderboard";
 import IGORanking from "pages/igo-ranking";
 import IgoApply from "pages/igo-apply";
-import RoadmapDetails from "pages/roadmap-details";
+import Roadmap from "pages/roadmap";
 import TeamDetails from "pages/team-details";
 import Contact from "pages/contact";
 
@@ -48,8 +48,8 @@ function App() {
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/igo-ranking" element={<IGORanking />} />
       <Route path="/igo-apply" element={<IgoApply />} />
-      <Route path="/roadmap-details" element={<RoadmapDetails />} />
-      <Route path="/team-details" element={<TeamDetails />} />
+      <Route path="/roadmap" element={<Roadmap />} />
+      <Route path="/team" element={<TeamDetails />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   );
