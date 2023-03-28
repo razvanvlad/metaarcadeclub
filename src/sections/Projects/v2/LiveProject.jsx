@@ -65,7 +65,7 @@ const LiveProject = () => {
                         <h3 className="mb-15">
                           <a href="/projects-details-1">{item.title}</a>
                         </h3>
-                        <div className="dsc">PRICE (DDO) = {item.price}</div>
+                        <div className="dsc">PRICE s(DDO) = {item.price}</div>
                       </div>
                     </div>
                     <div className="all-raise">
