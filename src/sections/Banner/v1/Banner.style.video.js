@@ -4,8 +4,16 @@ import backgroundVideo from "assets/images/bg/background-crop-2.mp4";
 const BannerStyleWrapperVideo = () => {
   
   return(
+    <div classname="container">
     <video autoPlay true muted className="bg-vid"> <source src={backgroundVideo} type="video/mp4" /> </video>
+    <div className="overlay">
+      <h1>
+        WELCOME TO THE PLAYGROUND
+      </h1>
+    </div>
+    </div>
   );
+
 
 }
 

@@ -148,12 +148,37 @@ button {
 }
 
 .bg-vid {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
-    z-index: 0;
+    -o-object-position: center;
+    object-position: center;
 }
+
+.overlay {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay h1 {
+      color: ffffff;
+      font-weight: 800;
+      margin: -12rem 3rem 0;
+      mix-blend-mode: lighten;
+      padding: 5px 15px;
+      text-align: center;
+  }
 
 
 `;
