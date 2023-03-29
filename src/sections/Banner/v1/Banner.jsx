@@ -1,12 +1,12 @@
 import Button from "components/button";
-import BannerStyleWrapper from "./Banner.style";
+import BannerStyleWrapperVideo from "./Banner.style.video";
 
 import bannerIcon from "assets/images/icons/icon1.png";
 
 const Banner = () => {
   return (
     <>
-      <BannerStyleWrapper>
+      <BannerStyleWrapperVideo>
         <div className="container">
           <div className="banner-content text-center">
             <img
@@ -26,7 +26,7 @@ const Banner = () => {
             </Button> */}
           </div>
         </div>
-      </BannerStyleWrapper>
+      </BannerStyleWrapperVideo>
     </>
   );
 };

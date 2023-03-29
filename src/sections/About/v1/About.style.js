@@ -10,7 +10,7 @@ const AboutStyleWrapper = styled.section`
         position: absolute;
         width: 100%;
         height: auto;
-        top: -152px;
+        top: -385px;
         z-index: 99;
     }
 

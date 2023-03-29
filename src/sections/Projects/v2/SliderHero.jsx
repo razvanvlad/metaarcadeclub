@@ -1,9 +1,9 @@
 import Countdown, { zeroPad } from 'react-countdown';
 import { Slider, SliderItem } from "components/slider/Slider";
-import ProgressBar from "components/progressBar";
-import CardHover from "components/cardHover";
+// import ProgressBar from "components/progressBar";
+// import CardHover from "components/cardHover";
 import LiveProjectStyleWrapper from "./LiveProject.style";
-import data from "assets/data/liveProject/dataV1";
+// import data from "assets/data/liveProject/dataV1";
 import bannereWebsite1 from "assets/images/slider/bannere-website.png";
 import bannereWebsite2 from "assets/images/slider/bannere-website2.png";
 import bannereWebsite3 from "assets/images/slider/bannere-website3.png";
@@ -15,9 +15,9 @@ const SliderHero = () => {
   const sliderSettings = {
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5500,
     cssEase: "linear",
     centerMode: true,
     centerPadding: "0px",
