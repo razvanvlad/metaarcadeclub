@@ -2,7 +2,7 @@ import { useModal } from "utils/ModalContext";
 import { FiX, FiChevronRight } from "react-icons/fi";
 import WalletModalStyleWrapper from "./WalletModal.style";
 import { isMetaMaskInstalled, connectWallet } from "lib/metamaskhandler";
-import metamaskIcon from "assets/images/icons/meta-mask.png";
+import phantomWallet from "assets/images/icons/phantom-logo.svg";
 import coinBase from "assets/images/icons/coinbase.png";
 import trustWalletIcon from "assets/images/icons/trust.png";
 import walletConnect from "assets/images/icons/wallet.png";
@@ -35,30 +35,30 @@ const WalletModal = () => {
             </div>
             <div className="modal_body text-center">
               <div className="wallet_list">
-                <a href="#" onClick={(e) => handleMetamask(e)}>
+                {/* <a href="#" onClick={(e) => handleMetamask(e)}>
                   <img src={metamaskIcon} alt="Meta-mask-Image" />
                   MetaMask
                   <span>
                     <FiChevronRight />
                   </span>
-                </a>
-                <a href="# ">
+                </a> */}
+                {/* <a href="# ">
                   <img src={coinBase} alt="Coinbase-Image" />
                   Coinbase
                   <span>
                     <FiChevronRight />
                   </span>
-                </a>
-                <a href="# ">
+                </a> */}
+                {/* <a href="# ">
                   <img src={trustWalletIcon} alt="Trust-Image" />
                   Trust Wallet
                   <span>
                     <FiChevronRight />
                   </span>
-                </a>
-                <a href="# ">
-                  <img src={walletConnect} alt="Wallet-Image" />
-                  WalletConnect
+                </a> */}
+                <a target="_blank" href="https://phantom.app/" >
+                  <img src={phantomWallet} alt="Wallet-Image" />
+                  Phantom Wallet
                   <span>
                     <FiChevronRight />
                   </span>
@@ -66,8 +66,8 @@ const WalletModal = () => {
               </div>
               <div className="modal_bottom_text">
                 By connecting your wallet, you agree to our
-                <a href="# ">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
+                <a href="/terms-of-service">Terms of Service</a>
+                <a href="privacy-policy">Privacy Policy</a>
               </div>
             </div>
           </div>

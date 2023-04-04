@@ -1,7 +1,7 @@
 import { useModal } from "utils/ModalContext";
 import { FiX, FiChevronRight } from "react-icons/fi";
 import MetamaskModalStyleWrapper from "./MetamaskModal.style.js";
-import metamaskIcon from "assets/images/icons/meta-mask.png";
+import metamaskIcon from "assets/images/icons/phantom-logo.svg";
 
 const MetamaskModal = () => {
   const { handleMetamaskModal } = useModal();
