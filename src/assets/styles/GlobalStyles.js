@@ -181,6 +181,12 @@ button {
   }
 
 
+  .banner-icon {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;    
+  }
+
 `;
 
 export default GlobalStyles;

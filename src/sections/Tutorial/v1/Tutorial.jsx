@@ -1,6 +1,4 @@
-import { FiChevronRight } from "react-icons/fi";
 import { SectionTitle, SectionTitleWrapper } from "components/sectionTitle";
-import Button from "components/button";
 import TutorialStyleWrapper from "./Tutorial.style";
 import data from "assets/data/tutorial/dataV1";
 

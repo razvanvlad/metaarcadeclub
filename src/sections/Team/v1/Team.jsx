@@ -8,7 +8,7 @@ const Team = () => {
     <TeamStyleWrapper>
       <SectionTitle
         isCenter={true}
-        title="MEET THE CREW"
+        title="Meet the Team"
         subtitle="TEAM MEMBERS"
       />
       <div className="container">
