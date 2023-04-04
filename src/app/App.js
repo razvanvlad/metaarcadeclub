@@ -23,6 +23,8 @@ import IgoApply from "pages/igo-apply";
 import Roadmap from "pages/roadmap";
 import TeamDetails from "pages/team-details";
 import Contact from "pages/contact";
+import TermsOfService from "pages/terms-of-service";
+import PrivacyPolicy from "pages/privacy-policy";
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
       <Route path="/roadmap" element={<Roadmap />} />
       <Route path="/team" element={<TeamDetails />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/terms-of-service" element={<TermsOfService />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }

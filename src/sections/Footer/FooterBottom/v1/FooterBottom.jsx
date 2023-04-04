@@ -16,16 +16,16 @@ const FooterBottom = () => {
 
           <ul className="footer-menu">
             <li>
-              <a href="# ">About us</a>
+              <a href="/team">About us</a>
             </li>
-            <li>
+            {/* <li>
               <a href="# ">Social media</a>
+            </li> */}
+            <li>
+              <a href="/terms-of-service">Terms of Service</a>
             </li>
             <li>
-              <a href="# ">Terms of Service</a>
-            </li>
-            <li>
-              <a href="# ">Privacy Policy</a>
+              <a href="/privacy-policy">Privacy Policy</a>
             </li>
           </ul>
 
