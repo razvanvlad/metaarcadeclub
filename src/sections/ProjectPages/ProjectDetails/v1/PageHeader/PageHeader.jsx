@@ -11,7 +11,7 @@ const PageHeader = ({ currentPage }) => {
         <div className="row align-items-center">
           <div className="col-lg-12">
             <div className="breadcrumb_area">
-              <div className="breadcrumb_menu">
+              {/* <div className="breadcrumb_menu">
                 <a href="# ">Home <span>.</span> </a>
                 <a href="# ">Projects <span>.</span> </a>
                 <p>{currentPage && currentPage}</p>
@@ -20,7 +20,7 @@ const PageHeader = ({ currentPage }) => {
                   src={titleShape}
                   alt="bithu nft heading shape"
                 />
-              </div>
+              </div> */}
               <span className="share_icon" onClick={(e) => shareModalHandle(e)}>
                 <FiShare2 /> Share
               </span>
