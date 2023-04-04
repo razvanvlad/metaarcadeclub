@@ -8,7 +8,7 @@ const data = [
     checkList: [
       {
         icon: checkIcon,
-        text: "Launch on GamFi",
+        text: "Launch on GamFi2",
       },
       {
         icon: checkIcon,

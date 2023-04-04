@@ -4,10 +4,10 @@ import minusIcon from "assets/images/kycimg/munies.svg";
 export default {
   data: [
     {
-      year: "2021",
+      year: "2023",
       items: [
         {
-          title: "Q1 2021",
+          title: "Q1 2023",
           isLunched: true,
           checkList: [
             {
@@ -38,7 +38,7 @@ export default {
           checkList: [
             {
               icon: checkIcon,
-              text: "Launch on GamFi",
+              text: "Launch on GamFi1",
             },
             {
               icon: checkIcon,

@@ -3,144 +3,94 @@ import minusIcon from "assets/images/kycimg/munies.svg";
 
 const data = [
   {
-    title: "Q1 2021",
+    title: "Q1 2023",
     isLunched: true,
+    description: "Finalize Game Development & Website Revamp",
     checkList: [
       {
-        icon: checkIcon,
-        text: "Launch on GamFi",
-      },
-      {
-        icon: checkIcon,
-        text: "Seed round",
-      },
-      {
-        icon: checkIcon,
-        text: "Listing on CEX",
-      },
-      {
-        icon: checkIcon,
-        text: "Development of NFT Marketplace",
-      },
-    ],
-  },
-  {
-    title: "Q2 2021",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "DAO Maker & Red Kite",
-      },
-      {
-        icon: checkIcon,
-        text: "Listing on CEX",
-      },
-      {
-        icon: checkIcon,
-        text: "Development of NFT Marketplace",
-      },
-    ],
-  },
-  {
-    title: "Q3 2021",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "First NFT pre-orders",
-      },
-      {
-        icon: checkIcon,
-        text: "Launch of the GAME coin",
-      },
-      {
-        icon: checkIcon,
-        text: "Full-scale platform launch",
-      },
-    ],
-  },
-  {
-    title: "Q4 2021",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "IGO (Initial Game Offering)",
-      },
-      {
-        icon: checkIcon,
-        text: "Listing on CEX",
-      },
-      {
-        icon: checkIcon,
-        text: "Development of NFT Marketplace",
-      },
-    ],
-  },
-  {
-    title: "Q1 2022",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "Launch on GamFi",
-      },
-      {
-        icon: checkIcon,
-        text: "Auction system integration",
+        icon: minusIcon,
+        text: "Complete the development of 3D Pong, ensuring optimal gameplay and visuals.",
       },
       {
         icon: minusIcon,
-        text: "Mobile app for iOS and Android",
-      },
-      {
-        icon: minusIcon,
-        text: "Development of NFT Marketplace",
-      },
-      {
-        icon: minusIcon,
-        text: "Game launch",
+        text: "Upgrade and revamp the Meta Arcade Club website for a smoother user experience.",
       },
     ],
   },
   {
-    title: "Q2 2022",
+    title: "Q2 2023",
     isLunched: false,
+    description: "Officially launch the 3D Pong game",
     checkList: [
       {
         icon: minusIcon,
-        text: "Application for crypto exchange",
+        text: "Officially launch the 3D Pong game.",
       },
       {
         icon: minusIcon,
-        text: "Private round",
+        text: "Host a game launch tournament with fantastic prizes to celebrate and engage the community",
       },
       {
         icon: minusIcon,
-        text: "New team member added",
+        text: "Launch Meta Arcade Club's first NFT collection, featuring unique and limited edition assets.",
       },
       {
         icon: minusIcon,
-        text: "Team expansion",
+        text: "Organize a Leisure Raffle, offering winners all-expenses-paid trips to outstanding destinations.",
+      },
+      {
+        icon: minusIcon,
+        text: "Host a big event to celebrate the success of the first NFT collection and further engage the community.",
+      },
+      {
+        icon: minusIcon,
+        text: "Release additional unique skins for 3D Pong, including limited edition NFT skins for dedicated supporters.",
       },
     ],
   },
   {
-    title: "Q3 2022",
+    title: "Q3 2023",
     isLunched: false,
+    description: "Growth, Expansion & Global Events",
     checkList: [
       {
-        icon: checkIcon,
-        text: "First NFT pre-orders",
+        icon: minusIcon,
+        text: "Begin the development of new NFT-based arcade games to expand the Meta Arcade Club gaming universe.",
       },
       {
-        icon: checkIcon,
-        text: "Launch of the GAME coin",
+        icon: minusIcon,
+        text: "Gather community feedback on desired features and game genres for diverse gaming experiences.",
       },
       {
-        icon: checkIcon,
-        text: "Full-scale platform launch",
+        icon: minusIcon,
+        text: "Organize regular tournaments and events, offering exclusive NFT rewards and other exciting incentives.",
+      },
+      {
+        icon: minusIcon,
+        text: "Explore opportunities to integrate Meta Arcade Club games with other platforms and metaverses.",
+      },
+      {
+        icon: minusIcon,
+        text: "Establish partnerships with relevant industry players to expand the reach and impact of the project.",
+      },
+    ],
+  },
+  {
+    title: "Q4 2023",
+    isLunched: false,
+    description: "Finalize Game Development & Website Revamp",
+    checkList: [
+      {
+        icon: minusIcon,
+        text: "Continue to grow the Meta Arcade Club community, inviting more gamers and NFT enthusiasts to join.",
+      },
+      {
+        icon: minusIcon,
+        text: "Plan and execute global events to further engage the community and showcase the project's progress.",
+      },
+      {
+        icon: minusIcon,
+        text: "Explore new gaming genres and opportunities to develop a diverse and entertaining gaming ecosystem.",
       },
     ],
   },

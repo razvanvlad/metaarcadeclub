@@ -14,6 +14,7 @@ const RoadMapDetails = () => {
             >
               <div className="roadmap_item_inner">
                 <h4 className="roadmap_title">{roadmap.title}</h4>
+                <h4 className="">{roadmap.description}</h4>
                 <ul className="roadmap_check_list">
                   {roadmap.checkList?.map((item, i) => (
                     <li key={i}>

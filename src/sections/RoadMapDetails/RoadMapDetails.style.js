@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import itemStripShape from "assets/images/bg/roadmap_strip_shape.svg";
-import roadmapArrowShape from "assets/images/bg/roadmap-arrow-shape.svg";
+import roadmapArrowShape from "assets/images/bg/roadmap-arrow-shape2023.svg";
 import bgShape from "assets/images/kycimg/roadmapScreenbg.svg";
 
 const RoadMapDetailsStyleWrapper = styled.div`
