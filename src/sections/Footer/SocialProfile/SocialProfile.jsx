@@ -9,9 +9,10 @@ const Social = () => {
         <SectionTitle isCenter={true} subtitle="FIND US ON SOCIAL" />
         <div className="social-link-list">
           {data?.map((profile, i) => (
-            <a key={i} href={profile.url}>
+            <a key={i} href={profile.url} target="_blank">
               {" "}
               <img src={profile.icon} alt="social icon" />{" "}
+              
             </a>
           ))}
         </div>
