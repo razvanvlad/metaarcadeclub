@@ -81,7 +81,7 @@ const FAQStyleWrapper = styled.section`
     margin: 35px auto 0 auto;
     font-size: 16px !important;
     a {
-      color: #a3ff12;
+      color: #03fff8;
       font-size: 16px !important;
     }
   }

@@ -106,7 +106,7 @@ const NavWrapper = styled.nav`
 
         &:hover {
           a {
-            color: #a3ff12;
+            color: #03fff8;
           }
         }
 
@@ -150,7 +150,7 @@ const NavWrapper = styled.nav`
               }
 
               &:hover {
-                color: #a3ff12;
+                color: #03fff8;
               }
             }
 
@@ -275,7 +275,7 @@ const NavWrapper = styled.nav`
       }
 
       &:hover {
-        color: #a3ff12;
+        color: #03fff8;
         .wallet_token_list {
           opacity: 1;
           visibility: visible;

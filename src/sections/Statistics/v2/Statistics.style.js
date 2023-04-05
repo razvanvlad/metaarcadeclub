@@ -38,7 +38,7 @@ const StatisticsStyleWrapper = styled.section`
       left: 0;
       top: 9px;
       content: "";
-      background: #a3ff12;
+      background: #03fff8;
     }
     &:nth-child(2) {
       &::before {

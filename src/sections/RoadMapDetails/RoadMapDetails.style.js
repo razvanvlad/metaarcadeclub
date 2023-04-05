@@ -129,7 +129,7 @@ const RoadMapDetailsStyleWrapper = styled.div`
 
   .roadmap_title {
     font-size: 22px;
-    color: #a3ff12;
+    color: #03fff8;
     margin-bottom: 10px;
   }
   .roadmap_check_list {

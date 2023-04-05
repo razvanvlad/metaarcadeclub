@@ -90,7 +90,7 @@ const ApplyFormStyleWrapper = styled.div`
     }
 
     input[type="radio"]:checked {
-      background-color: #a3ff12;
+      background-color: #03fff8;
 
       &::before {
         border-color: #568416;

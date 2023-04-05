@@ -9,7 +9,7 @@ import Header from "sections/Header/v1";
 import About from "sections/About/v1";
 import NextProjects from "sections/Projects/v1";
 import Team from "sections/Team/v1";
-import Partner from "sections/Partner/v1";
+// import Partner from "sections/Partner/v1";
 import Footer from "sections/Footer/v1";
 import RoadMapDetails from "sections/RoadMapDetails";
 
@@ -28,7 +28,7 @@ export default function HomeOne() {
         <NextProjects />
         <RoadMapDetails />
         <Team />
-        <Partner />
+        {/* <Partner /> */}
         <Footer />
       </Layout>
     </Fragment>

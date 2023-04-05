@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import favIcon from "assets/images/fav.png";
+import favIcon from "assets/images/LOGO-meta-arcade-club-icon.png";
 const Layout = ({ children }) => {
   return (
     <>
@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <meta charset="utf-8" />
         <title>
           {" "}
-          GamFi - Metaverse Web3 IGO Launchpad React JS Template
+          Meta Arcade Club
         </title>
         <meta name="description" content="" />
         <link rel="shortcut icon" type="image/x-icon" href={favIcon} />

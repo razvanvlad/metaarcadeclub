@@ -13,7 +13,7 @@ const ProgressBarStyle = styled.div`
       position: absolute;
       left: 0%;
       top: 0;
-      background: #a3ff12;
+      background: #03fff8;
       height: 100%;
       transition: all 0.4s;
       width: ${({ progress }) =>

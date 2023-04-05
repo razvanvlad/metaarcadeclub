@@ -20,7 +20,7 @@ const NavigationStyleWrapper = styled.div`
 
       &:hover,
       &.active {
-        color: #a3ff12;
+        color: #03fff8;
         img {
           visibility: visible;
           opacity: 1;

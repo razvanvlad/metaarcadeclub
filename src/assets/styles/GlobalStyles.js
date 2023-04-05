@@ -85,7 +85,7 @@ a:active,
 a:hover {
     text-decoration: none !important;
     outline: 0 none;
-    color: #a3ff12;
+    color: #03fff8;
 }
 
 ul {

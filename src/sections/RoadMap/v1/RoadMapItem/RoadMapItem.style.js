@@ -48,7 +48,7 @@ const RoadMapItemStyleWrapper = styled.div`
       height: 100%;
       left: 0;
       top: 0;
-      background: #a3ff12;
+      background: #03fff8;
       svg {
         color: #090a1a;
         font-size: 15px;

@@ -69,7 +69,7 @@ const LinkStyle = styled.a`
   ${({ variant }) =>
     variant === "mint" &&
     css`
-      background: #a3ff12;
+      background: #03fff8;
       color: #090a1a;
       &:hover {
         color: #090a1a;
