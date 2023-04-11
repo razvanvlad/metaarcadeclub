@@ -34,7 +34,7 @@ const PageHeaderStyleWrapper = styled.div`
     }
   }
   .breadcrumb_title {
-    color: #ffffff;
+    color: #02fff8;
     font-size: 36px;
     margin: 15px 0 0;
   }

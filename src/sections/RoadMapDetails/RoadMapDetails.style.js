@@ -85,7 +85,7 @@ const RoadMapDetailsStyleWrapper = styled.div`
 
     &.shape_active {
       &::after {
-        background: rgba(163, 255, 18, 0.3);
+        background: rgba(182, 90, 170, 0.3);
       }
     }
 

@@ -34,7 +34,7 @@ const PageHeaderStyleWrapper = styled.div`
     }
 
     .breadcrumb_title {
-      color: white;
+      color: #02fff8;
       margin: 15px 0 0;
       font-size: 36px;
     }

@@ -32,7 +32,7 @@ const StatisticsCounterStyleWrapper = styled.div`
     background: linear-gradient(
       90deg,
       rgba(21, 22, 37, 0) 0%,
-      rgba(163, 255, 18, 0.5) 100%
+      rgba(182, 90, 170, 0.5) 100%
     );
   }
   .counter-number {

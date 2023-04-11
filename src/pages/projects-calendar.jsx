@@ -18,7 +18,7 @@ export default function ProjectsCalendarPage() {
         {walletModalvisibility && <WalletModal />}
         {metamaskModal && <MetamaskModal />}
         <Header />
-        <PageHeader currentPage="CALENDAR VIEW" pageTitle="IGO CALENDAR" />
+        <PageHeader currentPage="CALENDAR VIEW" pageTitle="PLAYGROUND CALENDAR" />
         <ProjectCalendar />
         <Footer />
       </Layout>
