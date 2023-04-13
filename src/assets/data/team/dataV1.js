@@ -4,133 +4,93 @@ import {
   TbBrandFacebook,
 } from "react-icons/tb";
 
-import avatar1 from "assets/images/team/team-image.png";
-import avatar2 from "assets/images/team/team-image2.png";
-import avatar3 from "assets/images/team/team-image3.png";
-import avatar4 from "assets/images/team/team-image4.png";
-import avatar5 from "assets/images/team/team-image5.png";
-import avatar6 from "assets/images/team/team-image6.png";
+import avatar1 from "assets/images/team/jeChilly.jpg";
+import avatar2 from "assets/images/team/Munu.jpg";
+import avatar3 from "assets/images/team/AsterX.jpg";
+import avatar4 from "assets/images/team/Vlad.jpg";
+import avatar5 from "assets/images/team/Razvan.jpg";
+import avatar6 from "assets/images/team/RaDesign.jpeg";
 import avatar7 from "assets/images/team/team-image7.png";
 import avatar8 from "assets/images/team/team-image8.png";
 const data = [
   {
     avatar: avatar1,
-    name: "Berneice Tran",
-    designation: "Director",
+    name: "jeChilly",
+    designation: "Founder",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
         icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://twitter.com/JeChilly",
       },
     ],
   },
   {
     avatar: avatar2,
-    name: "Genaro Nadel",
-    designation: "VP of Engineering",
+    name: "Munu",
+    designation: "Co-Founder",
     socialLinks: [
-      {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
-      },
+      // {
+      //   icon: <TbBrandLinkedin />,
+      //   url: "#",
+      // },
+      // {
+      //   icon: <TbBrandTwitter />,
+      //   url: "#",
+      // },
+      // {
+      //   icon: <TbBrandFacebook />,
+      //   url: "#",
+      // },
     ],
   },
   {
     avatar: avatar3,
-    name: "Lynnette Wilkes",
-    designation: "Fullstack Developer",
+    name: "AsterX",
+    designation: "Co-Founder",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
         icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://twitter.com/asterx_14",
       },
     ],
   },
   {
     avatar: avatar4,
-    name: "Claudia Hicks",
-    designation: "Sr. Developer",
+    name: "Vlad Grigore",
+    designation: "Event Manager",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
         icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://www.instagram.com/vlad_grigore/",
       },
     ],
   },
   {
     avatar: avatar5,
-    name: "Louis Baker",
-    designation: "Software Engineer",
+    name: "Razvan",
+    designation: "Frontend Developer",
     socialLinks: [
       {
         icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://www.linkedin.com/in/razvanvladpop",
       },
     ],
   },
   {
     avatar: avatar6,
-    name: "Nathan Bean",
-    designation: "Sr. UI Designer",
+    name: "RaDesign",
+    designation: "Graphic Designer",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
         icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://twitter.com/RaDesignSoluti1",
       },
     ],
   },
   {
     avatar: avatar7,
-    name: "R. Hawley",
-    designation: "Jr. UI/UX Designer",
+    name: "Ciprian",
+    designation: "3D Graphic Designer",
     socialLinks: [
       {
         icon: <TbBrandLinkedin />,
@@ -148,8 +108,8 @@ const data = [
   },
   {
     avatar: avatar8,
-    name: "Pedro Carrera",
-    designation: "Graphic Designer",
+    name: "Chef",
+    designation: "Advisor",
     socialLinks: [
       {
         icon: <TbBrandLinkedin />,
