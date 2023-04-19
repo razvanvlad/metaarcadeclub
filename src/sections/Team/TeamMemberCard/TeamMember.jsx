@@ -12,7 +12,7 @@ const TeamMember = ({ avatar, name, designation, socialLinks }) => {
       <ul className="team-icon-list">
         {socialLinks?.map((item, i) => (
           <li key={i}>
-            <a href={item.url}>{item.icon}</a>
+            <a target="_blank" href={item.url}>{item.icon}</a>
           </li>
         ))}
       </ul>

@@ -10,8 +10,8 @@ import avatar3 from "assets/images/team/AsterX.jpg";
 import avatar4 from "assets/images/team/Vlad.jpg";
 import avatar5 from "assets/images/team/Razvan.jpg";
 import avatar6 from "assets/images/team/RaDesign.jpeg";
-import avatar7 from "assets/images/team/team-image7.png";
-import avatar8 from "assets/images/team/team-image8.png";
+import avatar7 from "assets/images/team/Ciprian.jpg";
+import avatar8 from "assets/images/team/Chef.jpg";
 const data = [
   {
     avatar: avatar1,
@@ -93,16 +93,8 @@ const data = [
     designation: "3D Graphic Designer",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
         icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://twitter.com/cipriankis1",
       },
     ],
   },
@@ -112,16 +104,8 @@ const data = [
     designation: "Advisor",
     socialLinks: [
       {
-        icon: <TbBrandLinkedin />,
-        url: "#",
-      },
-      {
         icon: <TbBrandTwitter />,
-        url: "#",
-      },
-      {
-        icon: <TbBrandFacebook />,
-        url: "#",
+        url: "https://twitter.com/SolChef_nft",
       },
     ],
   },
