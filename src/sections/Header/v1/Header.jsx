@@ -90,10 +90,10 @@ const Header = () => {
                 ))}
               </ul>
             </div>
-            <div className="gamfi_menu_btns">
+            {/* <div className="gamfi_menu_btns">
               <button className="menu_btn" onClick={() => handleMobileMenu()}>
                 <MdNotes />
-              </button>
+              </button> */}
 
               {/* <div className="wallet_btn">
                 Buy token <MdOutlineKeyboardArrowDown />
@@ -105,7 +105,7 @@ const Header = () => {
                     <a href="#"> <img src={walletIcon4} alt="icon" />  Gate.io</a> 
                 </div>
               </div> */}
-              <Button
+              {/* <Button
                 href="# "
                 sm
                 variant="white"
@@ -115,7 +115,7 @@ const Header = () => {
                 <img src={connectIcon} alt="icon" />
                 Connect
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <!-- Main Menu END --> */}
