@@ -29,18 +29,10 @@ const data = [
     name: "Munu",
     designation: "Co-Founder",
     socialLinks: [
-      // {
-      //   icon: <TbBrandLinkedin />,
-      //   url: "#",
-      // },
-      // {
-      //   icon: <TbBrandTwitter />,
-      //   url: "#",
-      // },
-      // {
-      //   icon: <TbBrandFacebook />,
-      //   url: "#",
-      // },
+      {
+        icon: <TbBrandTwitter />,
+        url: "https://twitter.com/Munu7007",
+      },
     ],
   },
   {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import teamBg from "assets/images/bg/team-bg.jpg";
+import teamBg from "assets/images/bg/website_BG-03.png";
 
 const TeamStyleWrapper = styled.section`
   background-color: #090a1a;

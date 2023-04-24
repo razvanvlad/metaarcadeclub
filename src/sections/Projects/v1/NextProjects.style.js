@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import sectionBg from "assets/images/bg/project-bg.jpg";
+import sectionBg from "assets/images/bg/project-bg-01.png";
 const NextProjectsStyleWrapper = styled.div`
   background: url(${sectionBg});
   padding-top: 115px;

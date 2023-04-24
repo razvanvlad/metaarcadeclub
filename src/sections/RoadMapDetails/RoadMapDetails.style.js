@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import itemStripShape from "assets/images/bg/roadmap_strip_shape.svg";
 import roadmapArrowShape from "assets/images/bg/roadmap-arrow-shape2023.svg";
-import bgShape from "assets/images/kycimg/roadmapScreenbg.svg";
+import bgShape from "assets/images/bg/website_BG-02.png";
 
 const RoadMapDetailsStyleWrapper = styled.div`
-  padding: 100px 0 120px 0;
+  padding: 0px 0 120px 0;
   background: #090a1a;
   position: relative;
 
