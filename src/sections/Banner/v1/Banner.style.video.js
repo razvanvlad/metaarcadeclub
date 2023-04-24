@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundVideo from "assets/images/bg/banner-video2.mp4";
+import backgroundVideo from "assets/images/bg/banner-video3.mp4";
 
 const BannerStyleWrapperVideo = () => {
   
