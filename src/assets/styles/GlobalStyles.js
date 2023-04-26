@@ -180,11 +180,10 @@ button {
       text-align: center;
   }
 
-
   .banner-icon {
-    padding-top: 50px;
-    padding-left: 180px;
-    padding-right: 180px;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 `;

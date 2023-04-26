@@ -4,10 +4,10 @@ import { Slider, SliderItem } from "components/slider/Slider";
 // import CardHover from "components/cardHover";
 import LiveProjectStyleWrapper from "./LiveProject.style";
 // import data from "assets/data/liveProject/dataV1";
-import bannereWebsite1 from "assets/images/slider/bannere-website.png";
-import bannereWebsite2 from "assets/images/slider/bannere-website2.png";
-import bannereWebsite3 from "assets/images/slider/bannere-website3.png";
-import bannereWebsite4 from "assets/images/slider/bannere-website4.png";
+import bannereWebsite1 from "assets/images/slider/update/bannere-website.png";
+import bannereWebsite2 from "assets/images/slider/update/bannere-website2.png";
+import bannereWebsite3 from "assets/images/slider/update/bannere-website3.png";
+import bannereWebsite4 from "assets/images/slider/update/bannere-website4.png";
 
 const SliderHero = () => {
 
