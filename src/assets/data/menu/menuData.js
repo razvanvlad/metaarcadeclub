@@ -12,19 +12,19 @@ const data = [
       {
         id: "4XZ00",
         title: "Events Showcase",
-        url: "/projects-list",
+        url: "#",
       },
       {
         id: "4IX1V",
         title: "Projects Calendar",
-        url: "/projects-calendar",
+        url: "#",
       },
     ],
   },
   {
     id: "2ZYYU2",
     title: "Leaderboard",
-    url: "/leaderboard",
+    url: "#",
   },
   {
     id: "PMQ60",
