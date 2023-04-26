@@ -16,15 +16,27 @@ const data = [
       },
       {
         id: "4IX1V",
-        title: "Projects Calendar",
+        title: "Playground Calendar",
         url: "#",
       },
     ],
   },
   {
-    id: "2ZYYU2",
-    title: "Leaderboard",
+    id: "2ZYY2",
+    title: "Pong",
     url: "#",
+    subMenus: [
+      {
+        id: "2ZYYU2",
+        title: "Download",
+        url: "https://metaarcadeclub.com/downloads/Pong3D.zip",
+      },
+      {
+        id: "4EX12",
+        title: "Leaderboard",
+        url: "#",
+      },
+    ],
   },
   {
     id: "PMQ60",
