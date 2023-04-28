@@ -27,6 +27,7 @@ export const SectionTitleStyle = styled.div`
     text-transform: uppercase;
     margin-bottom: 0;
     font-size: 36px;
+    text-align: center !important;
   }
 
   @media only screen and (max-width: 991px) {
@@ -64,7 +65,7 @@ export const SectionTitleStyle = styled.div`
 export const SectionTitleWrapperStyle = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 

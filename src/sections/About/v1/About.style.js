@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const AboutStyleWrapper = styled.section`
     position: relative;
-    padding-bottom: 80px;
     background: #151625;
 
     .live_project_wrapper {
