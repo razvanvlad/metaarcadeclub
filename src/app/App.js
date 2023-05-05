@@ -25,6 +25,7 @@ import TeamDetails from "pages/team-details";
 import Contact from "pages/contact";
 import TermsOfService from "pages/terms-of-service";
 import PrivacyPolicy from "pages/privacy-policy";
+import Game from "pages/game";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/terms-of-service" element={<TermsOfService />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/game" element={<Game />} />
     </Routes>
   );
 }
